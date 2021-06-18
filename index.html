@@ -10,17 +10,19 @@
     <title>Minecraft Server Info</title>
 </head>
 <body>
-    <h1>Quickly get information about any Minecraft Server</h1>
-    <img class="cube_image" src="public/img/cube.png" alt="">
-    <form>
-        <div class="form-row">
-            <p class="input_text">Enter the IP-address of the server</p>
-            <input type="text" id="host" name="host" autocomplete="off">
-        </div>
-        <div class="form-row">
-            <input type="submit" id="submit" value="Get server information">
-        </div>
-    </form>
+    <div class="wrapper">
+        <h1>Quickly get information about any Minecraft Server</h1>
+        <img class="cube_image" src="public/img/cube.png" alt="">
+        <form>
+            <div class="form-row">
+                <p class="input_text">Enter the IP-address of the server</p>
+                <input type="text" id="host" name="host" autocomplete="off">
+            </div>
+            <div class="form-row">
+                <input type="submit" id="submit" value="Get server information">
+            </div>
+        </form>
+    </div>
     <div class="message" id="message"></div>
     <script src="public/js/jquery-3.6.0.min.js"></script>
     <script src="public/js/script.js"></script>

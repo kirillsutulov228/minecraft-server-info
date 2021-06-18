@@ -14,11 +14,11 @@ body {
     min-height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-h1 {
+h1, h2 {
     display: block;
     font-weight: 700;
     text-align: center;
-    padding: 18px;
+    margin: 18px;
 }
 p {
     font-size: 20px;
@@ -49,6 +49,9 @@ input[type="submit"] {
     width: 180px;
     height: 35px;
 }
+.wrapper {
+    padding-top: 75px;
+}
 .cube_image {
     display: block;
     width: 100px;
@@ -62,5 +65,12 @@ input[type="submit"] {
     max-width: 800px;
     min-width: 400px;
     margin: 10px auto 20px;
+    padding-bottom: 20px;
+}
+.server_title {
+    display: inline-block;
+    margin: 0;
+    border-bottom: 1px solid rgba(66,66,66,0.42);
+    padding: 15px;
 }
 
