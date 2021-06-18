@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="public/css/style.css">
+    <title>Minecraft Server Info</title>
+</head>
+<body>
+    <h1>Quickly get information about any Minecraft Server</h1>
+    <img class="cube_image" src="public/img/cube.png" alt="">
+    <form>
+        <div class="form-row">
+            <p class="input_text">Enter the IP-address of the server</p>
+            <input type="text" id="host" name="host" autocomplete="off">
+        </div>
+        <div class="form-row">
+            <input type="submit" id="submit" value="Get server information">
+        </div>
+    </form>
+    <div class="message" id="message"></div>
+    <script src="public/js/jquery-3.6.0.min.js"></script>
+    <script src="public/js/script.js"></script>
+</body>
+</html>
